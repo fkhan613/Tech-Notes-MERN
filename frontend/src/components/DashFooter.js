@@ -16,19 +16,18 @@ const DashFooter = () => {
         title="Home"
         onClick={onGoHomeClicked}
       >
-        <FontAwesomeIcon icon={faHouse}/>
+        <FontAwesomeIcon icon={faHouse} />
       </button>
     );
   }
 
   const content = (
     <footer className="dash-footer">
-    {goHomeButton}
+      {goHomeButton}
       <p>Current User:</p>
       <p>Status:</p>
     </footer>
   );
   return content;
 };
-
 export default DashFooter;
