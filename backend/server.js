@@ -26,8 +26,8 @@ app.use(express.static("public"));
 app.use("/", require("./routes/root"));
 
 //routes start
+app.use('/auth', require('./routes/authRoutes'))
 app.use('/users', require('./routes/userRoutes'))
-
 app.use('/notes', require('./routes/noteRoutes'))
 //routes end
 
