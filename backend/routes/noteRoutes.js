@@ -1,8 +1,7 @@
 const express = require("express");
 const router = express.Router();
-import notesController from "../controllers/notesController";
-import verifyJWT from "../middleware/verifyJWT";
-
+const notesController = require("../controllers/notesController");
+const verifyJWT = require("../middleware/verifyJWT");
 router.use(verifyJWT);
 
 router
