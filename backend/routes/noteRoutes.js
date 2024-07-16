@@ -1,7 +1,7 @@
-const express = require("express");
+import express from "express";
 const router = express.Router();
-const notesController = require("../controllers/notesController");
-const verifyJWT = require("../middleware/verifyJWT");
+import notesController from "../controllers/notesController";
+import verifyJWT from "../middleware/verifyJWT";
 
 router.use(verifyJWT);
 
@@ -12,4 +12,4 @@ router
   .patch(notesController.updateNote)
   .delete(notesController.deleteNote);
 
-module.exports = router;
+export default router;
