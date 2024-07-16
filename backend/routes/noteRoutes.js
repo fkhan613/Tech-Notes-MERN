@@ -1,4 +1,4 @@
-import express from "express";
+const express = require("express");
 const router = express.Router();
 import notesController from "../controllers/notesController";
 import verifyJWT from "../middleware/verifyJWT";
