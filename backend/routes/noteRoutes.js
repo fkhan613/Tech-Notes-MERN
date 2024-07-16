@@ -12,4 +12,4 @@ router
   .patch(notesController.updateNote)
   .delete(notesController.deleteNote);
 
-export default router;
+module.exports = router;
