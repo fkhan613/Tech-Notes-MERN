@@ -4,4 +4,4 @@ const allowedOrigins = [
   "https://tech-notes-mern-api.onrender.com/",
 ];
 
-module.exports = allowedOrigins
+export default allowedOrigins;
