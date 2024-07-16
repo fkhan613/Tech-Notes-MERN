@@ -1,6 +1,7 @@
 const allowedOrigins = [
   "http://localhost:3000",
-  "tech-notes-mern.onrender.com",
+  "https://tech-notes-mern.onrender.com",
+  "https://tech-notes-mern-api.onrender.com/",
 ];
 
 module.exports = allowedOrigins
