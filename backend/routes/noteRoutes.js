@@ -8,7 +8,7 @@ router.use(verifyJWT);
 router
   .route("/")
   .get(notesController.getAllNotes)
-  .post(notesController.createNote)
+  .post(notesController.createNewNote)
   .patch(notesController.updateNote)
   .delete(notesController.deleteNote);
 
