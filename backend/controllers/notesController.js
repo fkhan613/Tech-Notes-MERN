@@ -122,9 +122,4 @@ const deleteNote = async (req, res) => {
   res.json(reply);
 };
 
-module.exports = {
-  getAllNotes,
-  createNewNote,
-  updateNote,
-  deleteNote,
-};
+module.exports = { getAllNotes, createNewNote, updateNote, deleteNote };
